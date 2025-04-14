@@ -11,5 +11,10 @@ print(next(gen))
 
 for a, i in enumerate(infinite_sequence()):
     print(i)
-    if a >10:
+    if a > 10:
+        break
+
+for a, i in enumerate(gen):
+    print(f"{a}, {i}")
+    if a > 10:
         break
