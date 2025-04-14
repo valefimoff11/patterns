@@ -1,16 +1,27 @@
+import sys
+
+
 def infinite_sequence():
     num = 0
     while True:
         yield num
         num += 1
 
+print(infinite_sequence())
+print(infinite_sequence())
+
+
+
 gen = infinite_sequence()
 
+
 print(next(gen))
 print(next(gen))
 
+#gen.close()
+
 for a, i in enumerate(infinite_sequence()):
-    print(i)
+    print(f"{a}, {i}")
     if a > 10:
         break
 
