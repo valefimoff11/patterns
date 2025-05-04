@@ -12,7 +12,7 @@ import numpy as np
 #######################################################
 
 #Python Numeric Types
-
+#https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex
 
 
 #######################################################
