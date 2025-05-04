@@ -7,6 +7,12 @@ import numpy as np
 
 #######################################################
 
+#Python Numeric Types
+
+
+
+#######################################################
+
 ## Positive exponential notation
 large_number = 1e6  ## 1 million
 print(large_number)  ## Output: 1000000.0
