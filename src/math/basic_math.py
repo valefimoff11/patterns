@@ -2,6 +2,8 @@
 #2. Coding any math expression/equation in python
 #3. Feeding the above with data / data processing / preparation for the above
 
+#Math Operators -> Math Functions (exp, ln etc) -> Math Models
+
 import math
 import numpy as np
 
@@ -104,3 +106,7 @@ print(np.log10([1e-15, 100, -3.0]))
 
 #Pi
 print(np.pi)
+
+#######################################################
+
+#trigonometry functions
