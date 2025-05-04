@@ -19,6 +19,10 @@ print(small_number)  ## Output: 0.001
 mixed_number = 3.14e2
 print(mixed_number)  ## Output: 314.0
 
+## Precision considerations
+print(0.1 ** 3)     ## Floating point precision
+print(1e-3)         ## Scientific notation equivalent
+
 #######################################################
 
 #Raise to the Power of N / Exponent
@@ -72,7 +76,20 @@ print(np.exp(2))
 
 #######################################################
 
+#Euler’s constant, base of natural logarithms, Napier’s constant.
+print(np.e)
+
 print(math.log(100, 10))
+
+#the logarithm to the base e of a number x
+#the natural logarithm can be denoted ln
+#the common logarithm (logarithm with base 10, usually written as log
+#The natural logarithm log is the inverse of the exponential function, so that log(exp(x)) = x.
+#The natural logarithm is logarithm in base e.
+
+import numpy as np
+print([1, np.e, np.e**2, 10])
+print(np.log([1, np.e, np.e**2, 10]))
 
 #######################################################
 
