@@ -31,6 +31,8 @@ n = 3
 print(x**n)
 #output: 8
 
+print(math.pow(2, 3))      ## Precise power calculation
+
 #######################################################
 
 #Modulo
@@ -64,6 +66,9 @@ print(sqrt(4))
 #The exponential function returns E raised to the power of x (E**x) / exponential growth
 #'E' is the base of the natural system of logarithms (approximately 2.718282)
 print(math.exp(2))
+print(math.exp(2))         ## e raised to the power
+
+print(np.exp(2))
 
 #######################################################
 
@@ -71,10 +76,3 @@ print(math.log(100, 10))
 
 #######################################################
 
-#exp
-#Loharithm
-#Etc
-
-#Exponent
-#From math, np and basic python funcs - source all these
-#Find e where to source
