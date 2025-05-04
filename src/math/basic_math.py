@@ -1,10 +1,11 @@
 #1. English math terms for all situations
 #2. Coding any math expression/equation in python
 #3. Feeding the above with data / data processing / preparation for the above
+
+#mat models, building block hierarchy
+#Math Operators (+, -, *, **, sqrt) -> Math Functions (exp, ln etc) -> Math Models
+
 import sys
-
-#Math Operators -> Math Functions (exp, ln etc) -> Math Models
-
 import math
 import numpy as np
 
