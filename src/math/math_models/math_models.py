@@ -7,6 +7,8 @@ annual_rate = 0.05
 projection = population_growth(population, annual_rate, 10)
 print(f"Population after 10 years: {projection}")
 
+##################################################################
+
 def compound_interest(principal, rate, time_period, compounds_per_year):
 
     compound_interest = principal * (1 + rate/compounds_per_year) ** (compounds_per_year * time_period)
