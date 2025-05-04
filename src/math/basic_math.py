@@ -7,6 +7,20 @@ import numpy as np
 
 #######################################################
 
+## Positive exponential notation
+large_number = 1e6  ## 1 million
+print(large_number)  ## Output: 1000000.0
+
+## Negative exponential notation
+small_number = 1e-3  ## 0.001
+print(small_number)  ## Output: 0.001
+
+## Mixed exponential notation
+mixed_number = 3.14e2
+print(mixed_number)  ## Output: 314.0
+
+#######################################################
+
 #Raise to the Power of N / Exponent
 #raise x (base) to the power of n (exponent)
 #Exponentiation, (power) x to the power y
@@ -41,9 +55,19 @@ print(abs(-5))
 
 #######################################################
 
-#square root of number
+#take the square root of number
 from math import sqrt
 print(sqrt(4))
+
+#######################################################
+
+#The exponential function returns E raised to the power of x (E**x) / exponential growth
+#'E' is the base of the natural system of logarithms (approximately 2.718282)
+print(math.exp(2))
+
+#######################################################
+
+print(math.log(100, 10))
 
 #######################################################
 
