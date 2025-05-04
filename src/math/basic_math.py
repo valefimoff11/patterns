@@ -1,6 +1,7 @@
 #1. English math terms for all situations
 #2. Coding any math expression/equation in python
 #3. Feeding the above with data / data processing / preparation for the above
+import sys
 
 #Math Operators -> Math Functions (exp, ln etc) -> Math Models
 
@@ -12,6 +13,17 @@ import numpy as np
 #Python Numeric Types
 
 
+
+#######################################################
+
+#accurate summation
+
+data = [0.1]*10
+print(sum(data))
+print(np.sum(data))
+print(math.fsum(data))
+
+sys.exit()
 
 #######################################################
 
