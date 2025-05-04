@@ -36,12 +36,18 @@ print(10//6)
 
 #######################################################
 
+#absolute value / module of number
+print(abs(-5))
 
+#######################################################
+
+#square root of number
+from math import sqrt
+print(sqrt(4))
+
+#######################################################
 
 #exp
-#Sqrt
-#Power
-#Modulo
 #Loharithm
 #Etc
 
