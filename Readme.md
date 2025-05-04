@@ -1,0 +1,1 @@
+a set of python patterns used to train custom developed LLM for automated code generation
