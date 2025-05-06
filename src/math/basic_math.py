@@ -127,4 +127,4 @@ print(np.pi)
 
 #####################################################
 
-math ops and functions from pandas, numpy, scipy etc
+math ops and functions and even moels e.g. regression from pandas, numpy, scipy, pysymb etc
