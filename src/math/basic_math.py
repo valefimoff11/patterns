@@ -2,7 +2,8 @@
 #2. Coding any math expression/equation in python
 #3. Feeding the above with data / data processing / preparation for the above
 
-#mat models, building block hierarchy
+#mat models, building block hierarchy:
+#numeric types and their precision and lenght / size
 #Math Operators (+, -, *, **, sqrt) -> Math Functions (exp, ln etc) -> Math Models
 
 import sys
@@ -123,3 +124,7 @@ print(np.pi)
 #######################################################
 
 #trigonometry functions
+
+#####################################################
+
+math ops and functions from pandas, numpy, scipy etc
