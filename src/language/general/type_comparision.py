@@ -47,3 +47,6 @@ print(x == None)
 print(x is None)
 print(type(x))
 print(type(None))
+
+#get the ram address of object
+print(id(None))
