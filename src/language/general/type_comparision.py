@@ -2,7 +2,8 @@ from decimal import Decimal
 
 ####################################
 #
-# object/type comparison and passing objects by ref and value
+# object/type and value comparison and
+# passing objects by ref and value
 #
 ####################################
 
