@@ -38,8 +38,10 @@ print(a==b)
 print(a is b)
 
 #this is based on the fact that there is a singleton list type (which in turn is an object)
+#also type check / identification /test - 2 key approaches
 print(type(a))
 print(type(a) is list)
+print(isinstance(a, list))
 
 x = None
 print(x == None)
