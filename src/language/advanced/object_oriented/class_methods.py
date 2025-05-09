@@ -1,10 +1,13 @@
 import sys
 
+#demo of class and object attributes and methods
+
 class MethodDemo:
 
     #class (static) attributes
     y = 100
 
+    #object constructor
     def __init__(self):
 
         #object instance attributes
