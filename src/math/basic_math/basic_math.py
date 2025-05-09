@@ -5,10 +5,11 @@
 # mat models - building block hierarchy:
 # 1. Math constants: Pi, E, etc
 # 2. Number systems: real numbers, rational numbers, fractions, ratios etc
-# 2. Numeric data types and their precision and lenght / size - in programming languages
-# 3. Math Operators (+, -, *, **, sqrt)
-# 4. Math Functions (exp, ln etc)
-# 5. Math Models (of the above)
+# 3. Scalar Numeric data types and their precision and lenght / size - in programming languages
+# 4. Vector/Matrix data types
+# 5. Math Operators (+, -, *, **, sqrt) - on scalar and vector/matrix
+# 6. Math Functions (exp, ln etc) - on scalar and vector/matrix
+# 7. Math Models (of the above)
 #(adjacent area is operations with dates)
 
 import sys
