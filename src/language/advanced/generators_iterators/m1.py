@@ -28,6 +28,7 @@ for a, i in enumerate(gen):
     if a > 10:
         break
 
+#resets the generator (current element pointer - to the start)
 gen = infinite_sequence()
 
 for a, i in enumerate(gen):
