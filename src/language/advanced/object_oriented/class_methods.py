@@ -16,10 +16,12 @@ class MethodDemo:
 
     @classmethod
     def class_method_demo(cls):
+        #only class attributes are accessible
         cls.y = 99
         print(cls.y)
 
     def object_instance_method_demo(self):
+        #both object and class attributes are accessible from object instance method
         print(self.x)
         print(self.y)
 
