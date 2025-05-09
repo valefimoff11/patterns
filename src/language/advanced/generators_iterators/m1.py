@@ -1,6 +1,7 @@
 import sys
 
 #data pipelines / chains of generators possible too
+#multiple yield statements possible too
 
 def infinite_sequence():
     num = 0
