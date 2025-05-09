@@ -1,5 +1,7 @@
 import sys
 
+#data pipelines / chains of generators possible too
+
 def infinite_sequence():
     num = 0
     while True:
@@ -9,6 +11,7 @@ def infinite_sequence():
 print(infinite_sequence())
 print(infinite_sequence())
 
+sys.exit()
 
 gen = infinite_sequence()
 
