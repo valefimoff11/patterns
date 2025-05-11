@@ -20,6 +20,7 @@ key operations/functional primitives on data (become part of algorithms):
 8. apply transformations (including pivots, transpose etc) and/or calculations/math models
 9. validation / quality checks
 10. enrichment
+11. applying vectorized (same lambda/function) operations on each element of data structure in one go
 11. visualizations
 
 Data then feeds math models / calcs:
