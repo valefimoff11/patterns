@@ -19,4 +19,7 @@ cities = df['city']
 print(cities)
 print(df.city)
 
-print(df.iloc[:, 1])
+print("uuuu")
+print(df.iloc[3:5, [1, 2]])
+
+print(df[3:5])
