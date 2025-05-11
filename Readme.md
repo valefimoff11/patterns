@@ -109,4 +109,4 @@ Then the Math Models of the System under development and their specific applicat
 
 dev / devops environment architetcure and processes 
 
-
+![screenshot](docs/python-ea.jpg)
