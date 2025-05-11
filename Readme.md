@@ -9,6 +9,8 @@ key operations/functional primitives on data (become part of algorithms):
 1. looping through / iterating over collection
 1. search/find
 2. modifications - adding, changing, deleting elements of collection ("dataset")
+3. renaming column and row names
+4. imposing/applying externally defined data schema on dataset
 2. slicing / subsetting
 3. filter
 4. sort
