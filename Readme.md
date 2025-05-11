@@ -2,7 +2,8 @@ a set of python patterns used to train custom developed LLM for automated code g
 
 key operations/functional primitives on data (become part of algorithms):
 
-"data" is scalars, collections, classes/objects (individual classes may have to support some of the below ops, by overwriting standard methods)
+"data" is scalars, collections, structures/enumerations, classes/objects (individual classes may have to support some of the below ops, by overwriting standard methods)
+ , data classes, persistent datasets, data in transit (comm protocol payloads e.g. json), input/output params of functions
 
 0. Indexing
 1. search/find
@@ -14,7 +15,8 @@ key operations/functional primitives on data (become part of algorithms):
 7. aggregations (global and by key), including based on sliding window when by key - global or sliding win when by key
 8. apply transformations (including pivots, transpose etc) and/or calculations/math models
 9. validation / quality checks
-9. visualizations
+10. enrichment
+11. visualizations
 
 Data then feeds math models / calcs:
 
