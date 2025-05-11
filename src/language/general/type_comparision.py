@@ -52,3 +52,7 @@ print(type(None))
 
 #get the ram address of object
 print(id(None))
+
+
+########################################################
+
