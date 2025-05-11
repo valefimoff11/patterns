@@ -6,7 +6,9 @@ key operations/functional primitives on data (become part of algorithms):
  , data classes, persistent datasets, data in transit (comm protocol payloads e.g. json), input/output params of functions
 
 0. Indexing
+1. looping through / iterating over collection
 1. search/find
+2. adding, changing, deleting elements of collection ("dataset")
 2. slicing / subsetting
 3. filter
 4. sort
