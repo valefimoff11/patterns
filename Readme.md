@@ -31,6 +31,8 @@ parallel/multithreaded access to these - separate concern
 6. dictionary (hashmap)
 7. queue
 8. stack
+9. tree - various subtypes
+10. graph
 7. enumeration
 7. data class (python)
 8. class
