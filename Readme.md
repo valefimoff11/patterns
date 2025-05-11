@@ -1,8 +1,12 @@
 
 system architecture:
-
+ 
 interface layer - interatcions, apis, protocols, UI controls for interaction with external systems and users
+
 controller layer - mapping and routng interface requests to use case components, should also contain the state management if such is required
+here it is two main types - request / response (UI, services etc) and workflow/process engine - all these map to use case components/steps and orchestrate them 
+ while also insulating them from external interfaces / components / system specifics (same pronciples of insulation apply inside the system too, ie beteen internal components and layers)
+
 use case components layer
 data entity layer
 internal data structures
@@ -12,6 +16,11 @@ system context
 interfaces
 layers
 components - python packages, modules, classes, functions
+
+Design Process: 
+1. Identify and Model/Specify the Domain Concepts/Entities and the associated Business Functional ARchitetcure
+2. Model and implement the Domain Concepts and Biz Functional Architecture with Technical Components, Tech ARchitecture, Data Structires and Algorithms and IT/CLoud/Data Center Infrastructure services
+3. Design and IMplement the non-functio0nal requirements (follows the principles in 2 too)
 
 ---------------------------------------------
 
