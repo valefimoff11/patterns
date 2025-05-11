@@ -12,5 +12,5 @@ key operations/functional primitives on data (become part of algorithms):
 4. compare (==, <, >)
 5. join/concatenate
 6. aggregations (global and by key), including based on sliding window when by key - global or sliding win when by key
-7. apply transformations (including pivots) and/or calculations/math models
+7. apply transformations (including pivots, transpose etc) and/or calculations/math models
 8. visualizations
