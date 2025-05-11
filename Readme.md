@@ -4,11 +4,13 @@ key operations/functional primitives on data (become part of algorithms):
 
 "data" is scalars, collections, classes/objects
 
+0. Indexing
 1. search/find
+2. Slicing / subsetting
 2. filter
 3. sort
 4. compare (==, <, >)
 5. join/concatenate
-6. aggregations (global and by key), includign based on sliding window when by key - global or sliding win when by key
-7. apply transformations and/or calculations/math models
+6. aggregations (global and by key), including based on sliding window when by key - global or sliding win when by key
+7. apply transformations (including pivots) and/or calculations/math models
 8. visualizations
