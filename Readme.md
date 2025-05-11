@@ -1,3 +1,20 @@
+
+system architecture:
+
+interface layer - interatcions, apis, protocols, UI controls for interaction with external systems and users
+controller layer - mapping and routng interface requests to use case components, should also contain the state management if such is required
+use case components layer
+data entity layer
+internal data structures
+external data models - persistent (data in storage) and data in transit (payload of communication protocols or contents of batch datasets)
+
+system context
+interfaces
+layers
+components - python packages, modules, classes, functions
+
+---------------------------------------------
+
 a set of python patterns used to train custom developed LLM for automated code generation
 
 Data Structures:
@@ -69,18 +86,10 @@ Data then feeds math models / calcs:
  7. Math Models (of the above)
 (adjacent area is operations with dates)
 
+Then the Math Models of the System under development and their specific applications to specific areas of the Financial Systems - markets, instruments, valuation, pricing etc
+
 ----------------------------------
 
-system architecture:
+dev / devops environment architetcure and processes 
 
-interface layer - interatcions, apis, protocols, UI controls for interaction with external systems and users
-controller layer - mapping and routng interface requests to use case components, should also contain the state management if such is required
-use case components layer
-data entity layer
-internal data structures
-external data models - persistent (data in storage) and data in transit (payload of communication protocols or contents of batch datasets)
 
-system context
-interfaces
-layers
-components - python packages, modules, classes, functions
