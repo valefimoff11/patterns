@@ -1,5 +1,28 @@
 a set of python patterns used to train custom developed LLM for automated code generation
 
+Data Structures:
+
+break/model every data processing algorithm in the follwoing data structures 
+
+1. scalar
+2. array (n dimensional) - python array, numpy array, pandas is n dimansional array too
+3. list (n dimensional) - in python this is like array
+4. tuple
+5. set (tests for membership and for intersection)
+6. dictionary (hashmap)
+7. queue
+8. stack
+7. enumeration
+7. data class (python)
+8. class
+8. tabular data structures - pandas
+9. timeseries datastructures - pandas ts
+10. scalable tabular data structures - polars, pyspark
+
+-------------------------------------
+
+Operations / Functional Primitives on Data Structures:
+
 key operations/functional primitives on data (become part of algorithms):
 
 "data" is scalars, collections, structures/enumerations, classes/objects (individual classes may have to support some of the below ops, by overwriting standard methods)
@@ -31,7 +54,10 @@ Data then feeds math models / calcs:
 2. Coding any math expression/equation in python
 3. Feeding the above with data / data processing / preparation for the above
 
- mat models - building block hierarchy:
+---------------------------------------
+
+ Math models - building block hierarchy:
+
  1. Math constants: Pi, E, etc
  2. Number systems: real numbers, rational numbers, fractions, ratios etc
  3. Scalar Numeric data types and their precision and lenght / size - in programming languages
@@ -41,18 +67,3 @@ Data then feeds math models / calcs:
  7. Math Models (of the above)
 (adjacent area is operations with dates)
 
-Data Structures:
-
-break/model every data processing algorithm in the follwoing data structures 
-
-1. scalar
-2. array (n dimensional) - python array, numpy array, pandas is n dimansional array too
-3. list (n dimensional) - in python this is like array
-4. tuple
-5. set (tests for membership and for intersection)
-6. dictionary (hashmap)
-7. data class (python)
-8. class
-8. tabular data structures - pandas
-9. timeseries datastructures - pandas ts
-10. scalable tabular data structures - polars, pyspark
