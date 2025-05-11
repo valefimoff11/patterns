@@ -69,3 +69,16 @@ Data then feeds math models / calcs:
  7. Math Models (of the above)
 (adjacent area is operations with dates)
 
+----------------------------------
+
+system architecture:
+
+interface layer - interatcions, apis, protocols, UI controls for interaction with external systems and users
+controller layer - mapping and routng interface requests to use case components, should also contain the state management if such is required
+use case components layer
+data entity layer
+
+system context
+interfaces
+layers
+components - python packages, modules, classes, functions
