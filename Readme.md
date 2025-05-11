@@ -4,6 +4,8 @@ Data Structures:
 
 break/model every data processing algorithm in the follwoing data structures 
 
+parallel/multithreaded access to these - separate concern
+
 1. scalar
 2. array (n dimensional) - python array, numpy array, pandas is n dimansional array too
 3. list (n dimensional) - in python this is like array
@@ -46,7 +48,7 @@ break every data processing algorithm in the following functional primitives
 9. validation / quality checks
 10. enrichment
 11. applying vectorized (same lambda/function) operations on each element of data structure in one go
-11. visualizations
+11. visualizations - operations to slicing subsets of the data from the above data structures, then types of graphs, types of UI controls to interact with the underlying data and graphs
 
 Data then feeds math models / calcs:
 
