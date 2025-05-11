@@ -77,6 +77,8 @@ interface layer - interatcions, apis, protocols, UI controls for interaction wit
 controller layer - mapping and routng interface requests to use case components, should also contain the state management if such is required
 use case components layer
 data entity layer
+internal data structures
+external data models - persistent (data in storage) and data in transit (payload of communication protocols or contents of batch datasets)
 
 system context
 interfaces
