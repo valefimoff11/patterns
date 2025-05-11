@@ -24,7 +24,7 @@ Design Process:
 1. Catalogue and know in detail each type  of system building component (all types documented here) - which are used to put together a system
 2. Identify and Model/Specify the Domain Concepts/Entities and the associated Business Functional ARchitetcure
 3. Model and implement the Domain Concepts and Biz Functional Architecture with Technical Components, Tech ARchitecture, Data Structires and Algorithms and IT/CLoud/Data Center Infrastructure services
-4. Design and IMplement the non-functio0nal requirements (follows the principles in 2 too)
+4. Design and IMplement the non-functio0nal requirements (follows the principles in 2 too) - scalability, reliability, security, monitoring
 
 ---------------------------------------------
 
