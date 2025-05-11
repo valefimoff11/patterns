@@ -2,7 +2,7 @@ a set of python patterns used to train custom developed LLM for automated code g
 
 key operations/functional primitives on data (become part of algorithms):
 
-"data" is scalars, collections, classes/objects
+"data" is scalars, collections, classes/objects (individual classes may have to support some of the below ops, by overwriting standard methods)
 
 0. Indexing
 1. search/find
