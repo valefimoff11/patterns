@@ -1,3 +1,6 @@
+a set of python patterns used to train custom developed LLM for automated code generation
+
+-----------------------------------
 
 system architecture:
  
@@ -28,8 +31,6 @@ Design Process:
 Off the shelf (e.g. cloud) services, frameworks and libs
 
 ------------------------------------------------
-
-a set of python patterns used to train custom developed LLM for automated code generation
 
 Data Structures:
 
