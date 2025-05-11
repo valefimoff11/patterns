@@ -13,6 +13,7 @@ key operations/functional primitives on data (become part of algorithms):
 6. join/concatenate
 7. aggregations (global and by key), including based on sliding window when by key - global or sliding win when by key
 8. apply transformations (including pivots, transpose etc) and/or calculations/math models
+9. validation / quality checks
 9. visualizations
 
 Data then feeds math models / calcs:
