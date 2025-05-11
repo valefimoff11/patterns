@@ -25,7 +25,7 @@ parallel/multithreaded access to these - separate concern
 
 1. scalar
 2. array (n dimensional) - python array, numpy array, pandas is n dimansional array too
-3. list (n dimensional) - in python this is like array
+3. list (n dimensional) and linked lists - in python this is like array
 4. tuple
 5. set (tests for membership and for intersection)
 6. dictionary (hashmap)
@@ -65,6 +65,7 @@ break every data processing algorithm in the following functional primitives
 7. aggregations (global and by key), including based on sliding window when by key - global or sliding win when by key
 8. apply transformations (including pivots, transpose etc) and/or calculations/math models
 9. validation / quality checks
+10. identification of duplicates
 10. enrichment
 11. applying vectorized (same lambda/function) operations on each element of data structure in one go
 11. visualizations - operations to slicing subsets of the data from the above data structures, then types of graphs, types of UI controls to interact with the underlying data and graphs
