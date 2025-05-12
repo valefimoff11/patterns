@@ -1,5 +1,16 @@
+import sys
+
 import pandas as pd
 import numpy as np
+
+import datetime
+
+dti = pd.to_datetime(
+    ["2018-1-22", np.datetime64("2018-01-01"), datetime.datetime(2018, 1, 1)]
+)
+
+print(dti)
+sys.exit()
 
 print(pd.Timestamp(year=1982, month=9, day=4, hour=1, minute=35, second=10))
 print(pd.Timestamp('1982-09-04 1:35.18'))
