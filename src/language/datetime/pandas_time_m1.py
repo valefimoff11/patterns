@@ -41,3 +41,5 @@ week = pd.date_range('2022-2-7', periods=7)
 for day in week:
     print('{}-{}\t{}'.format(day.day_of_week, day.day_name(), day.date()))
 
+df = pd.read_csv('E:\\pyprojects\\patterns\\patterns\\sampledata\\server_util.csv')
+print(df.head())
