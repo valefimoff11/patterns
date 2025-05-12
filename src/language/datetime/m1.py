@@ -1,5 +1,5 @@
 # importing parser from dateutil module
-from dateutil import parser
+from dateutil import parser, tz
 
 # input date
 date_string = '23-41-2021'
@@ -10,6 +10,8 @@ print("Input Date:", date_string)
 
 # using try-except blocks for handling the exceptions
 try:
+
+    #tz.datetime_exists()
 
    # parsing the date string using parse() function
    # It returns true if the date is correctly formatted else it will go to except block
