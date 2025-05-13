@@ -1,7 +1,9 @@
 from dateutil import parser
 #from datetime import datetime
 
-#date/time specific regular expressions
+#Date/Time Validation Rule Types
+#1. Date/Time Validation and Parsing through Explicitly/upfront specified, Date/time specific regular expressions
+#2. Fully Automated date/time valdation and parsing - no upfront reg expression spec
 
 # Test date strings
 date_str1 = "2024-09-16"
