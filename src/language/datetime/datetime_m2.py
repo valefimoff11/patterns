@@ -53,6 +53,8 @@ try:
     df['date'] = pd.to_datetime(df['date'], errors='coerce')
     print(df)
 
+    #df['date'] = df['date'].astype('datetime64[ns]')
+
     print(df.dtypes)
     df.info()
 
