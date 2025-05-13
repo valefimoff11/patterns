@@ -12,6 +12,10 @@ from datetime import datetime
 # 1. Date/Time Validation and Parsing through Explicitly/upfront specified, Date/time specific regular expressions
 # 2. Fully Automated date/time validation and parsing - no upfront reg expression spec
 
+#ideas about General, COnfigurable/Schema based, Data Validation Framework - e.g. based on combination of the following two
+#https://pandera.readthedocs.io/en/stable/
+#https://docs.pydantic.dev/latest/
+
 ###############################################################
 # 1. Date/Time Validation and Parsing through Explicitly/upfront specified, Date/time specific regular expressions
 ###############################################################
