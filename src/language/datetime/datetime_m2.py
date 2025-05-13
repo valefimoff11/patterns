@@ -3,6 +3,9 @@ import pandas as pd
 from dateutil import parser
 from datetime import datetime
 
+#key attributes for date/time parsing/validation rules and input data scenarios:
+#date, timestamp (and its precision), time zone, locality (of the date-time)
+
 # Date/Time Validation Rule Types (all validation rule types are also implemented in pandas and numpy date/time handling functions)
 # 1. Date/Time Validation and Parsing through Explicitly/upfront specified, Date/time specific regular expressions
 # 2. Fully Automated date/time validation and parsing - no upfront reg expression spec
@@ -15,20 +18,28 @@ from datetime import datetime
 date_string = '2017-12-31'
 
 # giving the date format
-date_format = '%Y-%m-%d'
+date_format1 = '%Y-%m-%d'
+date_format2 = '%Y-%m-%d-%H-%M-%S-%z'
 
 # using try-except blocks for handling the exceptions
 try:
 
    # formatting the date using strptime() function
-   dateObject = datetime.strptime(date_string, date_format)
-   print(dateObject)
+    date1_p = datetime.strptime(date_string, date_format1)
+    date2_p = datetime.strptime('2018-04-18-17-04-30-+1000', date_format2)
 
 # If the date validation goes wrong
 except ValueError:
 
    # printing the appropriate text if ValueError occurs
    print("Incorrect data format, should be YYYY-MM-DD")
+
+print("Parsed Date_1_p:", date1_p)
+
+print("TZ NAME: {tz}".format(tz=date2_p.tzname()))
+print("Parsed Date_2_p:", date2_p)
+
+print()
 
 ###############################################################
 # 2. Fully Automated date/time validation and parsing - no upfront reg expression spec required - however contains risks of semantically incorrect
@@ -48,7 +59,7 @@ try:
     date3 = parser.parse(date_str3)
 
     # Parsing and validating date strings with Pandas (based on dateutil internally)
-    dti = pd.to_datetime(
+    date4 = pd.to_datetime(
         ["2018-1-22", np.datetime64("2018-01-01"), datetime(2018, 1, 1)]
     )
 
@@ -63,4 +74,4 @@ print("Parsed Date 1:", date1)
 print("Parsed Date 2:", date2)
 print("Parsed Date 3:", date3)
 
-print(dti)
+print("Parsed Date 5:", date4)
