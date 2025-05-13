@@ -54,6 +54,7 @@ try:
     print(df)
 
     print(df.dtypes)
+    df.info()
 
 
 # If the date validation goes wrong
