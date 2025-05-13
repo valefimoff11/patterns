@@ -17,16 +17,21 @@ from datetime import datetime
 # input date
 date_string = '2017-12-31'
 
-# giving the date format
+# date formats
 date_format1 = '%Y-%m-%d'
 date_format2 = '%Y-%m-%d-%H-%M-%S-%z'
 
-# using try-except blocks for handling the exceptions
 try:
 
    # formatting the date using strptime() function
     date1_p = datetime.strptime(date_string, date_format1)
     date2_p = datetime.strptime('2018-04-18-17-04-30-+1000', date_format2)
+
+    dateparser = lambda date_val: datetime.strptime(date_val, '%Y-%m-%d %H:%M:%S')
+    df = pd.read_csv("E:\\pyprojects\\patterns\\patterns\\sampledata\\server_util.csv", parse_dates=['datetime'], date_parser=dateparser)
+    df = pd.read_csv("E:\\pyprojects\\patterns\\patterns\\sampledata\\server_util.csv", parse_dates=['datetime'], date_format='%Y-%m-%d %H:%M:%S')
+
+    #df['datetime'] = df['datetime'].apply(lambda x: x.strftime('%d%m%Y'))
 
 # If the date validation goes wrong
 except ValueError:
@@ -58,7 +63,7 @@ try:
     date2 = parser.parse(date_str2)
     date3 = parser.parse(date_str3)
 
-    # Parsing and validating date strings with Pandas (based on dateutil internally)
+    # Parsing and validating date strings with Pandas (which is still based on dateutil internally)
     date4 = pd.to_datetime(
         ["2018-1-22", np.datetime64("2018-01-01"), datetime(2018, 1, 1)]
     )
@@ -67,7 +72,6 @@ try:
 # If the date validation goes wrong
 except ValueError:
 
-   # printing the appropriate text if ValueError occurs
    print("Incorrect data format")
 
 print("Parsed Date 1:", date1)
