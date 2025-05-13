@@ -5,6 +5,10 @@ from dateutil import parser
 #1. Date/Time Validation and Parsing through Explicitly/upfront specified, Date/time specific regular expressions
 #2. Fully Automated date/time valdation and parsing - no upfront reg expression spec
 
+###############################################################
+# 2. Fully Automated date/time validation and parsing - no upfront reg expression spec
+###############################################################
+
 # Test date strings
 date_str1 = "2024-09-16"
 date_str2 = "16th September, 2024"
