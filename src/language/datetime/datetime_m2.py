@@ -53,6 +53,8 @@ try:
     df['date'] = pd.to_datetime(df['date'], errors='coerce')
     print(df)
 
+    print(df.dtypes)
+
 
 # If the date validation goes wrong
 except ValueError:
