@@ -28,10 +28,22 @@ try:
     date2_p = datetime.strptime('2018-04-18-17-04-30-+1000', date_format2)
 
     dateparser = lambda date_val: datetime.strptime(date_val, '%Y-%m-%d %H:%M:%S')
+    #deprecated - use date_format
     df = pd.read_csv("E:\\pyprojects\\patterns\\patterns\\sampledata\\server_util.csv", parse_dates=['datetime'], date_parser=dateparser)
     df = pd.read_csv("E:\\pyprojects\\patterns\\patterns\\sampledata\\server_util.csv", parse_dates=['datetime'], date_format='%Y-%m-%d %H:%M:%S')
 
     #df['datetime'] = df['datetime'].apply(lambda x: x.strftime('%d%m%Y'))
+
+    df1 = pd.DataFrame({'date': ['2022-05-01', '2022-05-02', '2022-05-03']})
+    # convert to datetime using pd.to_datetime
+    df1['date'] = pd.to_datetime(df1['date'])
+    print(df1)
+
+    df1 = pd.DataFrame({'date': ['2022-05-01', '2022-05-02', '2022-05-03']})
+    df1['date'] = df1['date'].apply(lambda x: datetime.strptime(x, '%Y-%m-%d'))
+    print(df1)
+
+
 
 # If the date validation goes wrong
 except ValueError:
