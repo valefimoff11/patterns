@@ -1,9 +1,9 @@
 from dateutil import parser
 #from datetime import datetime
 
-#Date/Time Validation Rule Types
-#1. Date/Time Validation and Parsing through Explicitly/upfront specified, Date/time specific regular expressions
-#2. Fully Automated date/time valdation and parsing - no upfront reg expression spec
+# Date/Time Validation Rule Types
+# 1. Date/Time Validation and Parsing through Explicitly/upfront specified, Date/time specific regular expressions
+# 2. Fully Automated date/time valdation and parsing - no upfront reg expression spec
 
 ###############################################################
 # 2. Fully Automated date/time validation and parsing - no upfront reg expression spec required - however contains risks of semantically incorrect
