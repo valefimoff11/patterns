@@ -80,6 +80,11 @@ try:
         ["2018-1-22", np.datetime64("2018-01-01"), datetime(2018, 1, 1)]
     )
 
+    df1 = pd.DataFrame({'date': ['2022-05-01', '2022-05-02', '2022-05-03']})
+    #infer_datetime_format is deprecited - it is now the default
+    df1['date'] = pd.to_datetime(df1['date'], infer_datetime_format=True)
+    print(df1)
+
 
 # If the date validation goes wrong
 except ValueError:
