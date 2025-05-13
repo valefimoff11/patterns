@@ -52,8 +52,10 @@ try:
     # convert to datetime using pd.to_datetime and handle missing datetime data
     df['date'] = pd.to_datetime(df['date'], errors='coerce')
     print(df)
-
     #df['date'] = df['date'].astype('datetime64[ns]')
+    #df['date'] = pd.to_datetime(df['date'], format='%d%b%Y:%H:%M:%S.%f', errors='coerce')
+    # for multiple columns
+    #df[['start', 'end']] = df[['start', 'end']].apply(pd.to_datetime, format='%d%b%Y:%H:%M:%S.%f', errors='coerce')
 
     print(df.dtypes)
     df.info()
