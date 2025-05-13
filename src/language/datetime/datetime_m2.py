@@ -6,7 +6,8 @@ from dateutil import parser
 #2. Fully Automated date/time valdation and parsing - no upfront reg expression spec
 
 ###############################################################
-# 2. Fully Automated date/time validation and parsing - no upfront reg expression spec
+# 2. Fully Automated date/time validation and parsing - no upfront reg expression spec required - however contains risks of semantically incorrect
+# date misinterpretation, even though syntatcically correct
 ###############################################################
 
 # Test date strings
