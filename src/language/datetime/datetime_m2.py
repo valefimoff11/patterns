@@ -1,3 +1,5 @@
+import sys
+
 import numpy as np
 import pandas as pd
 from dateutil import parser
@@ -43,6 +45,13 @@ try:
     df1['date'] = df1['date'].apply(lambda x: datetime.strptime(x, '%Y-%m-%d'))
     print(df1)
 
+    df = pd.DataFrame({'date': ['2022-05-01', '2022-05-02', '2022-05-xx']})
+    print(df)
+    #generates ValueError and converts to NaT
+    #df['date'] = pd.to_datetime(df['date'])
+    # convert to datetime using pd.to_datetime and handle missing datetime data
+    df['date'] = pd.to_datetime(df['date'], errors='coerce')
+    print(df)
 
 
 # If the date validation goes wrong
